@@ -1,0 +1,154 @@
+/*Prathmesh*/
+  :root {
+    --primary-color:        #ffd500;
+    --white-color:          #4dca4f;
+    --dark-color:           #010101;
+    --menu-bg-color:        #556a7e;
+
+    --gray-color:           #909090;
+    --p-color:              #7d7a7a;
+
+  
+    --font-weight-bold:     600;
+    --font-weight-normal:   400;
+    --font-weight-light:    300;
+
+    --h1-font-size:         56px;
+    --h2-font-size:         48px;
+    --h3-font-size:         38px;
+    --h4-font-size:         34px;
+    --h5-font-size:         30px;
+    --h6-font-size:         24px;
+    --p-font-size:          18px;
+    --base-font-size:       16px;
+    --button-font-size:     20px;
+
+    --border-radius-large:  100%;
+    --border-radius-medium: 80px;
+    --border-radius-small:  40px;
+  }
+
+
+  body {
+    font-family: var(--base-font-family);
+  }
+
+
+  
+
+  /* CUSTOM BUTTON */
+  .custom-btn {
+    background: var(--dark-color);
+    border: none;
+    border-radius: var(--border-radius-medium);
+    color: var(--white-color);
+    letter-spacing: 0.2px;
+    padding: 6px 36px 10px 36px;
+    font-size: var(--button-font-size);
+    white-space: nowrap;
+  }
+
+  .custom-btn:hover,
+  .custom-btn:focus {
+    color: var(--dark-color);
+    background: var(--primary-color);
+  }
+
+
+  /*---------------------------------------
+     HERO                
+  -----------------------------------------*/
+
+  .hero-title,
+  .email-link {
+    background: var(--dark-color);
+    border-radius: var(--border-radius-medium);
+    color: var(--white-color);
+    display: inline-block;
+    margin: 0.5rem 0;
+    padding: 0.5rem 2rem 1.5rem 2rem;
+	font-size: 2.2em;
+  }
+
+  .email-link {
+    background: var(--primary-color);
+    color: var(--dark-color);
+    font-size: var(--h4-font-size);
+    padding: 0.5rem 2rem 1rem 2rem;
+  }
+
+  .email-link:hover {
+    background: var(--dark-color);
+    color: var(--white-color);
+  }
+
+
+  /*---------------------------------------
+     ABOUT                
+  -----------------------------------------*/
+  
+  .about-third {
+	  margin: 2.2em -0.8em;
+  }
+
+  .about-image {
+    border-radius: var(--border-radius-small);
+  }
+
+  .profile-list li {
+    margin: 0.3rem 0;
+  }
+
+  .profile-list strong {
+    display: inline-block;
+    width: 30%;
+    margin-right: 1rem;
+  }
+
+
+
+  /*---------------------------------------
+     CONTACT               
+  -----------------------------------------*/
+  
+  .contact-form .form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(142, 140, 140, 0.35);
+    box-shadow: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+    outline: none;
+    color: var(--dark-color);
+    font-weight: var(--font-weight-light);
+    padding-left: 0;
+    cursor: text;
+  }
+
+  .contact-form input {
+    height: calc(2.25rem + 10px);
+  }
+
+  .contact-form .form-group {
+    margin: 0 0 1rem;
+    position: relative;
+  }
+
+
+  .contact-form #submit-button {
+    background: var(--primary-color);
+    border: none;
+    border-radius: var(--border-radius-medium);
+    color: var(--dark-color);
+    cursor: pointer;
+    font-size: var(--p-font-size);
+    line-height: 0;
+    margin-top: 2.5rem;
+    padding: 1.5rem 1.8rem 1.8rem 1.8rem;
+    white-space: nowrap;
+    max-width: 190px;
+  }
+
+  .copyright-text {
+    font-size: var(--base-font-size);
+  }
